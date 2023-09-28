@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+
+}
+
 body {
     background-image: linear-gradient(to bottom, rgb(255, 192, 203), rgb(255, 114, 137), rgb(255, 0, 43));
     background-attachment: fixed;
@@ -7,8 +12,8 @@ body {
 
 main {
     background-color: rgb(255, 207, 207);
-    width: 600px;
-    padding: 10px;
+    width: 800px;
+    padding: 20px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 8px 8px 30px #000000a9;
@@ -22,6 +27,7 @@ main {
 
 h1 {
     color: blue;
+    margin: 40px;
 }
 
 h2 {
@@ -36,17 +42,24 @@ h4 {
     color: green;
 }
 
-p.segunda-pagina {
+#div-margem {
+    margin: 40px
+}
+
+.segunda-pagina {
+    
     text-align: center;
-    margin-left: 87%;
+    margin: auto;
     background-color:rgb(253, 213, 220);
     box-shadow: 2px 2px 8px #b60055;
     border-radius: 10px;
     height: 20px;
     width: 150px;    
     padding: 5px;
-    text-shadow: 0px 0px 1px brown;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
 }
+
+
 
 
 
@@ -69,6 +82,11 @@ p.segunda-pagina {
     text-shadow: 0px 0px 1px brown;
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
 li > a {
     font-weight: 600;
     text-decoration: none;
@@ -79,3 +97,19 @@ li:hover > a {
     text-decoration: underline;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    text-align: center;
+    background-color: #3d0000;
+    color: white;
+}
+
+footer a {
+    margin: auto;
+    color: white;
+}
