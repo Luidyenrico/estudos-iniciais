@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(255, 192, 203), rgb(255, 114, 137), rgb(255, 0, 43));
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    
+}
+
+main {
+    background-color: rgb(255, 207, 207);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 8px 8px 30px #000000a9;
+}
+
+#titulo-principal {
+    color: rgb(21, 239, 255);
+    text-shadow: 1px 1px 9px rgba(0, 7, 110, 0.555);
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: green;
+}
+
+p.segunda-pagina {
+    text-align: center;
+    margin-left: 87%;
+    background-color:rgb(253, 213, 220);
+    box-shadow: 2px 2px 8px #b60055;
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;    
+    padding: 5px;
+    text-shadow: 0px 0px 1px brown;
+}
+
+
+
+#gatosol {
+    box-shadow: 10px 10px 20px rgb(139, 0, 0);
+    border-radius: 150px;
+}
+#videooo {
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(139, 0, 0);
+    margin: 10px;
+}
+
+#conteudo-2 {
+    text-align: center;
+    background-color:rgb(253, 213, 220);
+    box-shadow: 2px 2px 8px #b60055;
+    border-radius: 100px;
+    width: 150px;    
+    text-shadow: 0px 0px 1px brown;
+}
+
+li > a {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(165, 0, 165);
+}
+
+li:hover > a {
+    text-decoration: underline;
+}
+

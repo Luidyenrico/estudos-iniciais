@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testecss.css">
+    <title>Fontes</title>
+</head>
+<body>
+    <main>
+        <h1>Fontes</h1>
+        <h2>Declarações</h2>
+             <ul>
+                    <li><strong>font-style </strong>
+                        <ul>
+                            <li>normal</li>
+                            <li>italic</li>
+                        </ul>
+                   <li><strong>font-weight</strong></li>
+                    Define o "peso", que é basicamente o quão <strong>negrito</strong> vai ficar:          
+                        <ul>
+                            <li>100 - 900</li>
+                            <li>lighter</li>
+                            <li>normal</li>
+                            <li>bold</li>
+                            <li>bolder</li>
+                        </ul>    
+                    <li><strong>font-size</strong> 
+                        <ul>
+                            <li>Medidas absolutas: cm, mm, in, px, pt, pc.</li>
+                            <li>Medidas relativas: em, ex, rem, vw, vh, %.</li>
+                            <li><strong>Recomendado:</strong>px / em.</li>
+                        </ul>
+                    <li><strong>font-family</strong>
+                        <ul>
+                            <li>Use no maximo 4 fontes no site.</li>
+                            <a href="http://fonts.google.com" target="_blank"><li>Fontes do google</li></a>
+                            <li>Baixando fontes externas, você deve colocar na pasta do projeto e utilizar o seguinte codigo para criar uma ''font-family'' com ela:</li>
+                            <code>@font-face {<br>
+                            src: url('nome da fonte.otf') format('opentype'), url('nome da fonte.ttf') format(truetype);<br>
+                            </code>Caso queira adicionar parametros adicionais para fonte:<code><br>
+                                font-weight: normal;
+                                font-style: normal;
+                            <br>
+                            }</code><br>
+                            E ai para adicionar a fonte é só usar normalmente em font-family.
+                                
+                            
+                        </ul>
+                </ul>
+            <p>
+                Pode usar uma declaração para unir todas essas 4 anteriores em uma só, que seria dessa forma:
+
+                <p><code>font: <code id="palavra1">italic</code> <code id="palavra2">bolder</code> <code id="palavra3">3em</code> <code id="palavra4">'Work sans', 'sans-serif'</code>;</code></p>
+
+                <p>Na ordem respectiva</p>
+            </p>     
+               <ol>            
+                    <li id="lista1"> font-style
+                    <li id="lista2"> font-weight
+                    <li id="lista3"> font-size
+                    <li id="lista4"> font-family
+               </ol>
+            </p>
+        
+    </main>
+    <a href="testedecss.html"><img src="../botaovoltar.png" alt="botaovoltar" width="50" height="50"></a>
+</body>
+</html>

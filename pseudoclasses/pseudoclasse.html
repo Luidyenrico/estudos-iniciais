@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pseudoclasse.css">
+    
+    <title>CSS</title>
+</head>
+
+<body>
+    <main>
+        <h1>CSS</h1>
+        <h2>Pseudo-Classes</h2>
+            <p>:<strong>hover</strong>- Aplica estilos quando o elemento é "hovered" (quando o cursor do mouse está sobre ele).</p>                 
+            <div id="divteste1">Teste
+                <p>Texto escondido</p>
+            </div>
+
+            <p>:<strong>active</strong> - Aplica estilos quando o elemento está sendo clicado ou ativado.</p>
+            <div id="divteste2">Teste
+                <p>Texto escondido</p>
+            </div>
+
+            <p>:<strong>focus</strong>- Aplica estilos quando o elemento está em foco, geralmente após ser selecionado por meio do teclado ou com o auxílio de um dispositivo de entrada.</p>
+            <div id="divteste3">Teste <br>
+                <input type="number" name="Numero" id="inputnumero"> <p>Texto escondido</p>
+            </div>
+
+            <p>:<strong>visited</strong> - Aplica estilos a um link que já foi visitado pelo usuário.</p>
+            <div id="divteste4">
+                Modificado pela visited: <a id="aprincipal" href="../index.html">Voltar a pagina principal</a>
+                <br>
+                Não modificado: <a href="../index.html">Voltar a pagina principal</a>
+                <br>
+                Não visitado: <a href="http://gmail.com.br">acesse o gmail</a>
+                <br>
+                Aparentemente a <strong>visited</strong> não pode suportar muitos parametros de estilo.
+            </div>
+
+            <p>:<strong>first-child</strong> - Seleciona o primeiro elemento filho de um elemento pai.</p>
+            
+            <div id="divteste5">
+                <div>Texto</div>   
+                <div>Texto</div>
+                <div>Texto</div>     
+            </div>
+
+            <p>:<strong>last-child</strong> - Seleciona o último elemento filho de um elemento pai.</p>
+
+            <div id="divteste6">               
+                <div>Texto</div>   
+                <div>Texto</div>
+                <div>Texto</div>   
+            </div>
+
+    </main>
+    <a href="../index.html"><img src="../botaovoltar.png" alt="botaovoltar" width="50" height="50"></a>
+</body>
+</html>

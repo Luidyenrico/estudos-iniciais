@@ -1,0 +1,58 @@
+
+
+body {
+    background-image: linear-gradient(to bottom, #54D8F6, #48D4C8 , #5BEBB6, #48D479, #54F65F);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #225c47;
+}
+
+h1 {
+    color: #133025;
+    text-align: center;
+    text-shadow: 1px 1px 3px #48D4C8;
+    
+
+}
+
+h2 {
+    color: #143b17;
+}
+
+p {
+    text-align: justify;
+}
+
+
+#palavra1 {
+    color: blue;
+}
+#palavra2 {
+    color: rgb(0, 255, 0);
+}
+#palavra3 {
+    color: rgb(255, 251, 0);
+}
+#palavra4 {
+    color: rgb(255, 0, 43);
+}
+
+#lista1 {
+    color: blue;
+}
+#lista2 {
+    color: rgb(0, 255, 0);
+}
+#lista3 {
+    color: rgb(255, 251, 0);
+}
+#lista4 {
+    color: rgb(255, 0, 43);
+}

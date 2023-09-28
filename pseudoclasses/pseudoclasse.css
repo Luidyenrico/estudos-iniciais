@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(to bottom, #FA9569, #E0746E , #F573CB, #B75DDE, #8B69FA);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #B75DDE;
+}
+
+h1 {
+    color: #133025;
+    text-align: center;
+    text-shadow: 1px 1px 3px #B75DDE;
+    
+
+}
+
+h2 {
+    color: #143b17;
+}
+
+p {
+    text-align: justify;
+   
+}
+
+div {
+    text-align: center;
+    background-color: #B75DDE;
+    border-radius: 20px;
+    outline-color: black;
+    outline-width: 2px;
+    outline-style: solid;
+
+   
+}
+
+div > p {
+    text-align: center;
+     display: none;
+}
+
+
+#divteste1:hover {
+color: rgb(0, 21, 39);
+background-color: #0080a7;
+font-size: 30px;
+font-weight: 900;
+font-family:Arial, Helvetica, sans-serif
+
+}
+#divteste1:hover > p {
+    display: block;
+   
+}
+
+#divteste2:active {
+color: rgb(0, 21, 39);
+background-color: #0080a7;
+font-size: 30px;
+font-weight: 900;
+font-family:Arial, Helvetica, sans-serif
+
+}
+
+#divteste2:active > p {
+    display: block;
+
+}
+
+#divteste3 > input:focus {
+    color: rgb(0, 45, 85);
+    background-color: #0080a7;
+    font-size: 30px;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#divteste3 > input:focus + p  {
+    display: block;
+    font-weight: 900;
+}
+#divteste3 {
+    padding: 5px;
+}
+
+
+#divteste4 > a{
+    text-decoration: none;
+}
+
+#divteste4 > #aprincipal:visited { 
+    color: rgb(9, 255, 0);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#divteste4 {
+    text-align: left;
+    padding: 20px;
+}
+
+#divteste5 > :first-child {
+    background-color:#E0746E;
+
+}
+#divteste6 > :last-child  {
+    background-color:#E0746E;
+}
